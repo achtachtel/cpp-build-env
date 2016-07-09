@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
 	libboost-all-dev \
 	libiomp-dev \
 	openssl \
+	libssl-dev \
 	libgtest-dev
 
 # compile google test framework and make it available in /usr/lib
@@ -19,4 +20,4 @@ RUN cd /usr/src/gtest \
 	cmake --build build >> /dev/null \
 	cp build/libgtest* /usr/lib \
 	rm -rf build
-	
+
