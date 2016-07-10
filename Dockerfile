@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:stretch
 
 MAINTAINER Marcel Brand <marcel.brand@achtachtel.de>
 
