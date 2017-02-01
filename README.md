@@ -4,4 +4,4 @@ Includes dependencies for
  - Boost
  - OpenSSL
  - OpenMP
- - Google test framework
+ - Google test framework (not pre-build)
